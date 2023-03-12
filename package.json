@@ -1,0 +1,19 @@
+{
+  "name": "preentrega3-rudas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass --watch scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rudasmatias/PreEntrega3-Rudas.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rudasmatias/PreEntrega3-Rudas/issues"
+  },
+  "homepage": "https://github.com/rudasmatias/PreEntrega3-Rudas#readme"
+}

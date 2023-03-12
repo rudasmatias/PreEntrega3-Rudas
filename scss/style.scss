@@ -1,3 +1,13 @@
+@import "variables";
+@import "globales";
+@import "navbar";
+@import "footer";
+@import "index";
+@import "ayuda";
+@import "contacto";
+@import "nosotros";
+@import "productos";
+
 /****************general*****************/
 * {
   padding: 0;
@@ -165,7 +175,6 @@ form {
   margin: 0;
   padding: 0;
 }
-
 .index__img2 {
   margin-top: 0;
   height: 1000px;
@@ -276,8 +285,8 @@ footer {
 .footer__letters {
   color: rgb(255, 217, 0);
 }
-
 /****************iconos*****************/
+
 .div__icons {
   height: fit-content;
   width: fit-content;
@@ -292,6 +301,7 @@ footer {
 }
 
 /****************img*****************/
+
 .img__productos {
   width: 300px;
   height: 300px;
@@ -309,5 +319,3 @@ footer {
   margin-right: 100px;
   padding-top: 5px;
 }
-
-/*# sourceMappingURL=style.css.map */
