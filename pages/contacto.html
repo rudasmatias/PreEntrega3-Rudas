@@ -139,38 +139,47 @@
           </div>
 
           <div class="col-md-4">
-            <form action="#">
-              <div class="label__list">
-                <div><label for="name">Nombre</label></div>
-                <input type="text" name="name" />
-              </div>
-              <div class="label__list">
-                <div><label for="lastName">Apellido</label></div>
-                <input type="text" name="lastName" />
-              </div>
-              <div class="label__list">
-                <label for="tipoConsulta">Elije Consulta</label>
-                <select name="tipoConsulta" id="consultas">
-                  <option value="E">Empleo</option>
-                  <option value="F">Franquicia</option>
-                  <option value="R">Reclamos</option>
-                </select>
-              </div>
-              <div class="label__list">
-                <div><label for="msj">Mensaje</label></div>
-                <textarea name="msj" id="" cols="30" rows="5"></textarea>
-              </div>
-              <div class="label__list">
-                <label for="condiciones"
-                  >Acepta los términos y condiciones</label
+            <div class="container">
+              <div class="mb-3">
+                <label for="formGroupExampleInput" class="form-label"
+                  >Nombre</label
                 >
-                <input type="checkbox" name="condiciones" />
+                <input
+                  type="text"
+                  class="form-control"
+                  id="formGroupExampleInput"
+                  placeholder="Juan"
+                />
               </div>
-              <div class="label__list">
-                <input type="submit" value="Enviar" />
-                <input type="reset" value="Reset" />
+              <div class="mb-3">
+                <label for="formGroupExampleInput2" class="form-label"
+                  >Apellido</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="formGroupExampleInput2"
+                  placeholder="Perez"
+                />
               </div>
-            </form>
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Elije tu consulta</option>
+                <option value="1">Empleo</option>
+                <option value="2">Franquicia</option>
+                <option value="3">Reclamos</option>
+                <option value="3">Otros</option>
+              </select>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label"
+                  >Deje su mensaje</label
+                >
+                <textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  rows="3"
+                ></textarea>
+              </div>
+            </div>
           </div>
 
           <div class="col-md-4">
