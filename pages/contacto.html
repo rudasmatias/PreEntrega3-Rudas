@@ -7,12 +7,20 @@
     <title>VirginiaCoffeeStyle | Contacto</title>
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="shortcut icon" href="../img/navicon.png" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,900;1,300&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,900;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
     <header>
@@ -28,7 +36,7 @@
                 />
               </a>
             </div>
-  
+
             <button
               class="navbar-toggler"
               type="button"
@@ -83,7 +91,7 @@
               </ul>
             </div>
           </div>
-  
+
           <div class="col-md-4" width="100px">
             <div class="d-flex h-100 justify-content-end" width="100px">
               <a
@@ -117,57 +125,76 @@
         </div>
       </nav>
     </header>
-    <section>
+    <div class="container">
       <div><h1 class="h1__fontstyle">¡COMUNICATE CON NOSOTROS!</h1></div>
-      <div class="cointainer__form">
-        
-        <div class="form__parts">
-          <img src="../img/persona pensando.PNG" alt="" id="personaPensando" />
-        </div>
 
-        <div class="form__parts">
-          <form action="#">
-            <div class="label__list">
-              <div><label for="name">Nombre</label></div>
-              <input type="text" name="name" />
-            </div>
-            <div class="label__list">
-              <div><label for="lastName">Apellido</label></div>
-              <input type="text" name="lastName" />
-            </div>
-            <div class="label__list">
-              <label for="tipoConsulta">Elije Consulta</label>
-              <select name="tipoConsulta" id="consultas">
-                <option value="E">Empleo</option>
-                <option value="F">Franquicia</option>
-                <option value="R">Reclamos</option>
-              </select>
-            </div>
-            <div class="label__list">
-              <div><label for="msj">Mensaje</label></div>
-              <textarea name="msj" id="" cols="30" rows="5"></textarea>
-            </div>
-            <div class="label__list">
-              <label for="condiciones">Acepta los términos y condiciones</label>
-              <input type="checkbox" name="condiciones" />
-            </div>
-            <div class="label__list">
-              <input type="submit" value="Enviar" />
-              <input type="reset" value="Reset" />
-            </div>
-          </form>
-        </div>
-        <div class="form__parts">
-          <p class="form__contacto">
-            <h3 class="contact__letters">MAIL:<h6 class="contact__letters">lavirginia@lavirginia.com.ar </h6></h3>
-            <h3 class="contact__letters">DIRECCIÓN:<h6 class="contact__letters"> 1340 bis, Juan Pablo II, S2000 Rosario, Santa Fe</h6></h3>
-            <h3 class="contact__letters">TELÉFONO:<h6 class="contact__letters">1234 - 1234 1234</h6></h3>
-          </p>
+      <div class="container">
+        <div class="row pt-4">
+          <div class="col-md-4">
+            <img
+              src="../img/persona pensando.PNG"
+              alt=""
+              id="personaPensando"
+            />
+          </div>
+
+          <div class="col-md-4">
+            <form action="#">
+              <div class="label__list">
+                <div><label for="name">Nombre</label></div>
+                <input type="text" name="name" />
+              </div>
+              <div class="label__list">
+                <div><label for="lastName">Apellido</label></div>
+                <input type="text" name="lastName" />
+              </div>
+              <div class="label__list">
+                <label for="tipoConsulta">Elije Consulta</label>
+                <select name="tipoConsulta" id="consultas">
+                  <option value="E">Empleo</option>
+                  <option value="F">Franquicia</option>
+                  <option value="R">Reclamos</option>
+                </select>
+              </div>
+              <div class="label__list">
+                <div><label for="msj">Mensaje</label></div>
+                <textarea name="msj" id="" cols="30" rows="5"></textarea>
+              </div>
+              <div class="label__list">
+                <label for="condiciones"
+                  >Acepta los términos y condiciones</label
+                >
+                <input type="checkbox" name="condiciones" />
+              </div>
+              <div class="label__list">
+                <input type="submit" value="Enviar" />
+                <input type="reset" value="Reset" />
+              </div>
+            </form>
+          </div>
+
+          <div class="col-md-4">
+            <h3 class="contact__letters">
+              MAIL:
+              <h6 class="contact__letters">lavirginia@lavirginia.com.ar</h6>
+            </h3>
+            <h3 class="contact__letters">
+              DIRECCIÓN:
+              <h6 class="contact__letters">
+                1340 bis, Juan Pablo II, S2000 Rosario, Santa Fe
+              </h6>
+            </h3>
+            <h3 class="contact__letters">
+              TELÉFONO:
+              <h6 class="contact__letters">1234 - 1234 1234</h6>
+            </h3>
+          </div>
         </div>
       </div>
-    </section>
-    <section>
-      <div><h2 class="h2__fontstyle" >AQUÍ ESTAMOS</h2></div>
+    </div>
+
+    <div class="container">
+      <div><h2 class="h2__fontstyle">AQUÍ ESTAMOS</h2></div>
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3349.4114464681093!2d-60.722642!3d-32.913726!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b652e2b0fd6351%3A0x90588f79026e946!2sCaf%C3%A9s%20La%20Virginia!5e0!3m2!1ses!2sar!4v1674944069231!5m2!1ses!2sar"
         width="100%"
@@ -177,7 +204,8 @@
         loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"
       ></iframe>
-    </section>
+    </div>
+
     <footer>
       <div class="container">
         <div class="row">
@@ -353,6 +381,10 @@
         </div>
       </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
