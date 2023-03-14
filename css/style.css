@@ -8,6 +8,56 @@ header .navbar .container .col-md-4 .collapse .navbar-nav .nav-item .nav-link {
   font-family: cursive;
 }
 
+footer {
+  background-color: rgba(0, 24, 160, 0.966);
+  margin-top: 15px;
+}
+footer .container .row .col-md-3 .nav__list ul {
+  list-style: none;
+}
+footer .container .row .col-md-3 .nav__list ul li {
+  list-style: none;
+}
+footer .container .row .col-md-3 .nav__list ul li a {
+  text-decoration-line: none;
+  color: rgb(255, 217, 0);
+  font-family: cursive;
+}
+footer .container .row .col-md-3 .copyright__list {
+  text-align: center;
+}
+footer .container .row .col-md-3 .copyright__list h5 {
+  color: rgb(255, 217, 0);
+  font-size: 15px;
+  font-family: cursive;
+}
+footer .container .row .col-md-3 .pago__list {
+  text-align: center;
+}
+footer .container .row .col-md-3 .pago__list .div__icon {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer .container .row .col-md-3 .pago__list .div__icon h5 {
+  color: rgb(255, 217, 0);
+  font-size: 15px;
+  font-family: cursive;
+}
+footer .container .row .col-md-3 .social__list {
+  text-align: center;
+}
+footer .container .row .col-md-3 .social__list .div__icon {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer .container .row .col-md-3 .social__list .div__icon h5 {
+  color: rgb(255, 217, 0);
+  font-size: 15px;
+  font-family: cursive;
+}
+
 /****************general*****************/
 * {
   padding: 0;
