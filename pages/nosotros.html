@@ -110,12 +110,7 @@
                 width="100px"
                 target="_blank"
               >
-                <img
-                  src="../img/person.svg"
-                  alt="user"
-                  class="d-inline-block"
-                  width="100px"
-                />
+                <img src="../img/person.svg" alt="user" class="img-fluid" />
               </a>
               <a
                 class="navbar-brand"
@@ -123,12 +118,7 @@
                 width="100px"
                 target="_blank"
               >
-                <img
-                  src="../img/cart.svg"
-                  alt="cart"
-                  class="d-inline-block"
-                  width="100px"
-                />
+                <img src="../img/cart.svg" alt="cart" class="img-fluid" />
               </a>
             </div>
           </div>
@@ -138,17 +128,18 @@
     <div class="container">
       <div><h1 class="h1__fontstyle">NUESTRA HISTORIA</h1></div>
       <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="img__nosotros">
+        <div class="row pt-4">
+          <div class="col-md-4">
+            <div>
               <img
                 src="../img/cafeterias-innovadoras-en-ciudad-de-mexico-barra.png"
                 alt="foto cafes"
+                class="img-fluid"
               />
             </div>
           </div>
 
-          <div class="col-md-6">
+          <div class="col-md-6 mt-3">
             <h2 class="h2__fontstyle" style="padding-bottom: 20px">
               La Virginia Coffee Style
             </h2>
@@ -165,28 +156,27 @@
       </div>
     </div>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <div class="vid__container">
-            <div class="vid__estiloCafes">
-              <iframe
-                width="600"
-                height="315"
-                src="https://www.youtube.com/embed/QnRvmbYyLqo"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen
-              ></iframe>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="vid__estiloCafes">
+    <div
+      class="container justify-content-center align-items-center mt-5"
+      style="display: flex"
+    >
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
             <iframe
-              width="600"
-              height="315"
+              width="350"
+              height="300"
+              src="https://www.youtube.com/embed/QnRvmbYyLqo"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="carousel-item">
+            <iframe
+              width="350"
+              height="300"
               src="https://www.youtube.com/embed/YV9ttXgiaTg"
               title="YouTube video player"
               frameborder="0"
@@ -194,10 +184,38 @@
               allowfullscreen
             ></iframe>
           </div>
+          <div class="carousel-item">
+            <iframe
+              width="350"
+              height="300"
+              src="https://www.youtube.com/embed/BFUIzO4pjmA"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
         </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     </div>
-
     <footer>
       <div class="container">
         <div class="row">
