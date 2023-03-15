@@ -114,8 +114,26 @@ header .navbar .container .col-md-4 .collapse .navbar-nav .nav-item .nav-link {
   font-family: cursive;
 }
 header .navbar .container .col-md-4 .collapse .navbar-nav .nav-item .nav-link:hover {
+  background-image: linear-gradient(to bottom, rgba(0, 24, 160, 0.966), rgb(255, 217, 0));
   color: white;
-  font-size: 30px;
+  transform: scale(1.5, 1.5);
+}
+header .navbar .container .col-md-4 .d-flex .navbar-brand {
+  animation-duration: 5s;
+  animation-name: aparecer;
+  animation-iteration-count: infinite;
+}
+header .navbar .container .col-md-4 .d-flex .navbar-brand:hover {
+  transform: scale(1.5, 1.5);
+  animation-duration: 0s;
+}
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .contact__letters {
